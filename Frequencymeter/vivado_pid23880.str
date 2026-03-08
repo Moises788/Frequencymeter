@@ -1,0 +1,1479 @@
+/*
+
+AMD Vivado v2025.1 (64-bit) [Major: 2025, Minor: 1]
+SW Build: 6140274 on Thu May 22 00:12:29 MDT 2025
+IP Build: 6138677 on Thu May 22 03:10:11 MDT 2025
+IP Build: 6138677 on Thu May 22 03:10:11 MDT 2025
+
+Process ID (PID): 23880
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Wed Jan 14 14:30:08 CET 2026
+Time zone: 	Central European Standard Time (Europe/Berlin)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Local screen bounds: x = 0, y = 0, width = 1920, height = 1040
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+Scale size: 19
+OS font scaling: 100%
+Anti-Alias Enabled: false
+
+Java version: 	21.0.1 64-bit
+
+Java home: 	C:/Xilinx/2025.1/Vivado/tps/win64/jre21.0.1_12
+Java executable: 	C:/Xilinx/2025.1/Vivado/tps/win64/jre21.0.1_12/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:ParallelGCThreads=4, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms812m, -Xmx6144m, -Xss10m]
+Java initial memory (-Xms): 	812 MB
+Java maximum memory (-Xmx):	 6 GB
+
+User name: 	mdo9938
+User home directory: C:/Users/mdo9938
+User working directory: D:/XADC_Filtre
+User country: 	FR
+User language: 	fr
+User locale: 	fr_FR
+
+RDI_BASEROOT: C:/Xilinx/2025.1
+HDI_APPROOT: C:/Xilinx/2025.1/Vivado
+RDI_DATADIR: C:/Xilinx/2025.1/Vivado/data
+RDI_BINDIR: C:/Xilinx/2025.1/Vivado/bin
+
+Vivado preferences file: C:/Users/mdo9938/AppData/Roaming/Xilinx/Vivado/2025.1/vivado.xml
+Vivado preferences directory: C:/Users/mdo9938/AppData/Roaming/Xilinx/Vivado/2025.1/
+Vivado layouts directory: C:/Users/mdo9938/AppData/Roaming/Xilinx/Vivado/2025.1/data/layouts
+PlanAhead jar file: 	C:/Xilinx/2025.1/Vivado/lib/classes/planAhead.jar
+Vivado log file: 	D:/XADC_Filtre/vivado.log
+Vivado journal file: 	D:/XADC_Filtre/vivado.jou
+Engine tmp dir: 	D:/XADC_Filtre/.Xil/Vivado-23880-n7-b302-12
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+RDI_APPROOT: C:/Xilinx/2025.1/Vivado
+RDI_ARGS:  -gui_launcher_event rodinguilauncherevent23372 "D:\XADC_Filtre\XADC_Filtre.xpr"
+RDI_ARGS_FUNCTION: RDI_EXEC_DEFAULT
+RDI_BASEROOT: C:/Xilinx/2025.1
+RDI_BINDIR: C:/Xilinx/2025.1/Vivado/bin
+RDI_BINROOT: C:/Xilinx/2025.1/Vivado/bin
+RDI_BUILD: yes
+RDI_CHECK_PROG: True
+RDI_DATADIR: C:/Xilinx/2025.1/Vivado/data
+RDI_INSTALLROOT: C:/Xilinx
+RDI_INSTALLVER: Vivado
+RDI_INSTALLVERSION: 2025.1
+RDI_ISE_PLATFORM: nt64
+RDI_JAVACEFROOT: C:/Xilinx/2025.1/Vivado/tps/win64/java-cef-95.0.4638.69
+RDI_JAVAFXROOT: C:/Xilinx/2025.1/Vivado/tps/win64/javafx-sdk-21.0.1
+RDI_JAVAROOT: C:/Xilinx/2025.1/Vivado/tps/win64/jre21.0.1_12
+RDI_JAVA_VERSION: 21.0.1_12
+RDI_LIBDIR: C:/Xilinx/2025.1/Vivado/lib/win64.o
+RDI_MINGW_LIB: C:/Xilinx/2025.1/Vivado\tps\mingw\6.2.0\win64.o\nt\bin;C:/Xilinx/2025.1/Vivado\tps\mingw\6.2.0\win64.o\nt\libexec\gcc\x86_64-w64-mingw32\6.2.0
+RDI_OPT_EXT: .o
+RDI_PLATFORM: win64
+RDI_PREPEND_PATH: C:/Xilinx/2025.1/Vitis/bin;C:/Xilinx/2025.1/Vivado/ids_lite/ISE/bin/nt64;C:/Xilinx/2025.1/Vivado/ids_lite/ISE/lib/nt64
+RDI_PROG: C:/Xilinx/2025.1/Vivado/bin/unwrapped/win64.o/vivado.exe
+RDI_PROGNAME: vivado.exe
+RDI_PYTHON3: C:/Xilinx/2025.1/Vivado\tps\win64\python-3.13.0
+RDI_PYTHON3_VERSION: 3.13.0
+RDI_PYTHONHOME: C:/Xilinx/2025.1/Vivado\tps\win64\python-3.13.0
+RDI_PYTHONPATH: C:/Xilinx/2025.1/Vivado\tps\win64\python-3.13.0;C:/Xilinx/2025.1/Vivado\tps\win64\python-3.13.0\bin;C:/Xilinx/2025.1/Vivado\tps\win64\python-3.13.0\lib;C:/Xilinx/2025.1/Vivado\tps\win64\python-3.13.0\lib\site-packages
+RDI_PYTHON_LD_LIBPATH: C:/Xilinx/2025.1/Vivado\tps\win64\python-3.13.0\lib
+RDI_SESSION_INFO: D:\XADC_Filtre:N7-B302-12-14-01-2026_14-29-50,95
+RDI_SHARED_DATA: C:/Xilinx/SharedData/2025.1/data
+RDI_TPS_ROOT: C:/Xilinx/2025.1/Vivado/tps/win64
+RDI_USE_JDK21: True
+RDI_VERBOSE: False
+XILINX: C:/Xilinx/2025.1/Vivado/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/2025.1/Vivado/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/2025.1/Vitis
+XILINX_PLANAHEAD: C:/Xilinx/2025.1/Vivado
+XILINX_SDK: C:/Xilinx/2025.1/Vitis
+XILINX_VITIS: C:/Xilinx/2025.1/Vitis
+XILINX_VIVADO: C:/Xilinx/2025.1/Vivado
+_RDI_BINROOT: C:\Xilinx\2025.1\Vivado\bin
+_RDI_CWD: D:\XADC_Filtre
+
+
+GUI allocated memory:	812 MB
+GUI max memory:		6,144 MB
+Engine allocated memory: 988 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: D:\XADC_Filtre\XADC_Filtre.xpr. Version: Vivado v2025.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project D:/XADC_Filtre/XADC_Filtre.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 113 MB (+115895kb) [00:00:10]
+// [Engine Memory]: 930 MB (+823724kb) [00:00:10]
+// WARNING: HEventQueue.dispatchEvent() is taking  2142 ms.
+// Tcl Message: open_project D:/XADC_Filtre/XADC_Filtre.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [Common 17-14] Message 'Board 49-26' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/2025.1/Vivado/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 990 MB. GUI used memory: 79 MB. Current time: 1/14/26, 2:30:08 PM CET
+// [Engine Memory]: 991 MB (+14726kb) [00:00:12]
+// [GUI Memory]: 140 MB (+22250kb) [00:00:13]
+// Project name: XADC_Filtre; location: D:/XADC_Filtre; part: xc7a100tcsg324-3
+// Tcl Message: open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:06 . Memory (MB): peak = 1636.422 ; gain = 201.609 
+dismissDialog("Open Project"); // bk (Open Project Progress)
+// [GUI Memory]: 150 MB (+3668kb) [00:00:14]
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 81 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 1,011 MB. GUI used memory: 77 MB. Current time: 1/14/26, 2:31:33 PM CET
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, XADC_Filtre(Behavioral) (XADC_Filtre.vhd)]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, module_daffichage(struct) (module_daffichage.vhd)]", 8); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed time: 118 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, module_daffichage(struct) (module_daffichage.vhd), dec : decodeur(Behavioral) (decodeur.vhd)]", 9, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, XADC_Filtre(Behavioral) (XADC_Filtre.vhd)]", 2, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // C (PAResourceCommand.PACommandNames_ADD_SOURCES, Sources_add_sources)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next", "Add Sources"); // JButton (NEXT)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File", "Add Sources"); // a (PAResourceQtoS.SrcChooserPanel_CREATE_FILE)
+// Elapsed time: 19 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "Artix7_XDC_master"); // ad (PAResourceAtoD.CreateSrcFileDialog_FILE_NAME)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Create Source File"); // f (RDIResource.BaseDialog_OK)
+dismissDialog("Create Source File"); // k (dialog1)
+selectButton("FINISH", "Finish", "Add Sources"); // JButton (FINISH)
+// 'f' command handler elapsed time: 30 seconds
+dismissDialog("Add Sources"); // c (dialog0)
+// Tcl Message: close [ open D:/XADC_Filtre/XADC_Filtre.srcs/sources_1/new/Artix7_XDC_master.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files D:/XADC_Filtre/XADC_Filtre.srcs/sources_1/new/Artix7_XDC_master.vhd 
+selectButton(RDIResource.BaseDialog_OK, "OK", "Define Module"); // f (RDIResource.BaseDialog_OK)
+selectButton("OptionPane.button", "Yes", "Define Module"); // JButton (OptionPane.button)
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Define Module"); // n (dialog2)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 04m:08s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 04m:10s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 04m:12s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 04m:14s
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Artix7_XDC_master(Behavioral) (Artix7_XDC_master.vhd)]", 12, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Artix7_XDC_master(Behavioral) (Artix7_XDC_master.vhd)]", 12, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("Artix7_XDC_master.vhd", 94, 146); // ae (Artix7_XDC_master.vhd)
+typeControlKey((HResource) null, "Artix7_XDC_master.vhd", 'v'); // ae (Artix7_XDC_master.vhd)
+selectCodeEditor("Artix7_XDC_master.vhd", 131, 95); // ae (Artix7_XDC_master.vhd)
+selectCodeEditor("Artix7_XDC_master.vhd", 131, 95, false, false, false, false, true); // ae (Artix7_XDC_master.vhd) - Double Click
+typeControlKey((HResource) null, "Artix7_XDC_master.vhd", 'c'); // ae (Artix7_XDC_master.vhd)
+// Elapsed time: 16 seconds
+selectCodeEditor("Artix7_XDC_master.vhd", 682, 183); // ae (Artix7_XDC_master.vhd)
+selectCodeEditor("Artix7_XDC_master.vhd", 163, 89); // ae (Artix7_XDC_master.vhd)
+typeControlKey((HResource) null, "Artix7_XDC_master.vhd", 'c'); // ae (Artix7_XDC_master.vhd)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Artix7_XDC_master(Behavioral) (Artix7_XDC_master.vhd)]", 12, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Artix7_XDC_master(Behavioral) (Artix7_XDC_master.vhd)]", 12, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // am (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // am (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // am (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // am (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // am (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ap (RDIResourceCommand.RDICommands_DELETE, global_delete_menu)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+selectButton(RDIResource.BaseDialog_OK, "OK", "Remove Sources"); // f (RDIResource.BaseDialog_OK)
+dismissDialog("Remove Sources"); // V (dialog3)
+// Tcl Message: export_ip_user_files -of_objects  [get_files D:/XADC_Filtre/XADC_Filtre.srcs/sources_1/new/Artix7_XDC_master.vhd] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  D:/XADC_Filtre/XADC_Filtre.srcs/sources_1/new/Artix7_XDC_master.vhd 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 05m:04s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Artix7_XDC_master(Behavioral) (Artix7_XDC_master.vhd)]", 12, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Artix7_XDC_master(Behavioral) (Artix7_XDC_master.vhd)]", 12, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+// TclEventType: DG_GRAPH_GENERATED
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ap (RDIResourceCommand.RDICommands_DELETE, global_delete_menu)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+selectCheckBox(PAResourceQtoS.RemoveSourcesDialog_ALSO_DELETE, "Also delete the project local file/directory from disk", true); // f (PAResourceQtoS.RemoveSourcesDialog_ALSO_DELETE): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK", "Remove Sources"); // f (RDIResource.BaseDialog_OK)
+dismissDialog("Remove Sources"); // V (dialog4)
+// Tcl Message: remove_files  D:/XADC_Filtre/XADC_Filtre.srcs/sources_1/new/Artix7_XDC_master.vhd 
+// Tcl Message: file delete -force D:/XADC_Filtre/XADC_Filtre.srcs/sources_1/new/Artix7_XDC_master.vhd 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 05m:10s
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // C (PAResourceCommand.PACommandNames_ADD_SOURCES, Sources_add_sources)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next", "Add Sources"); // JButton (NEXT)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File", "Add Sources"); // a (PAResourceQtoS.SrcChooserPanel_CREATE_FILE)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "bin_to_bcd6"); // ad (PAResourceAtoD.CreateSrcFileDialog_FILE_NAME)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Create Source File"); // f (RDIResource.BaseDialog_OK)
+dismissDialog("Create Source File"); // k (dialog6)
+selectButton("FINISH", "Finish", "Add Sources"); // JButton (FINISH)
+// 'f' command handler elapsed time: 4 seconds
+dismissDialog("Add Sources"); // c (dialog5)
+// Tcl Message: close [ open D:/XADC_Filtre/XADC_Filtre.srcs/sources_1/new/bin_to_bcd6.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files D:/XADC_Filtre/XADC_Filtre.srcs/sources_1/new/bin_to_bcd6.vhd 
+selectButton(RDIResource.BaseDialog_OK, "OK", "Define Module"); // f (RDIResource.BaseDialog_OK)
+selectButton("OptionPane.button", "Yes", "Define Module"); // JButton (OptionPane.button)
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Define Module"); // n (dialog7)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 05m:20s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 05m:22s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 05m:24s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 05m:26s
+// Elapsed time: 30 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, bin_to_bcd6(Behavioral) (bin_to_bcd6.vhd)]", 12, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, bin_to_bcd6(Behavioral) (bin_to_bcd6.vhd)]", 12, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("bin_to_bcd6.vhd", 256, 76); // ae (bin_to_bcd6.vhd)
+typeControlKey((HResource) null, "bin_to_bcd6.vhd", 'v'); // ae (bin_to_bcd6.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 05m:54s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 05m:56s
+// Elapsed time: 10 seconds
+selectCodeEditor("bin_to_bcd6.vhd", 93, 161); // ae (bin_to_bcd6.vhd)
+selectCodeEditor("bin_to_bcd6.vhd", 93, 161, false, false, false, false, true); // ae (bin_to_bcd6.vhd) - Double Click
+selectCodeEditor("bin_to_bcd6.vhd", 628, 139); // ae (bin_to_bcd6.vhd)
+// Elapsed time: 157 seconds
+selectButton(PAResourceEtoH.FileSetPanel_MESSAGES, "2"); // h (PAResourceEtoH.FileSetPanel_MESSAGES)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-1206] Syntax error near 'chat' [D:/XADC_Filtre/XADC_Filtre.srcs/sources_1/new/bin_to_bcd6.vhd:57]. ]", 2, false); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\XADC_Filtre\XADC_Filtre.srcs\sources_1\new\bin_to_bcd6.vhd;-;;-;16;-;line;-;57;-;;-;16;-;"); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE)
+selectCodeEditor("bin_to_bcd6.vhd", 318, 346); // ae (bin_to_bcd6.vhd)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // C (PAResourceCommand.PACommandNames_ADD_SOURCES, Sources_add_sources)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next", "Add Sources"); // JButton (NEXT)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File", "Add Sources"); // a (PAResourceQtoS.SrcChooserPanel_CREATE_FILE)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "frequecymetre"); // ad (PAResourceAtoD.CreateSrcFileDialog_FILE_NAME)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Create Source File"); // f (RDIResource.BaseDialog_OK)
+dismissDialog("Create Source File"); // k (dialog9)
+selectTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "VSourceFile ; 1 ; frequecymetre.vhd ; xil_defaultlib ; <Local to Project>", 0, "frequecymetre.vhd", 2); // aN (PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE)
+selectTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "VSourceFile ; 1 ; frequecymetre.vhd ; xil_defaultlib ; <Local to Project>", 0, "frequecymetre.vhd", 2, false, false, false, true, false); // aN (PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE) - Popup Trigger
+selectTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "VSourceFile ; 1 ; frequecymetre.vhd ; xil_defaultlib ; <Local to Project>", 0, "frequecymetre.vhd", 2, false, false, false, true, false); // aN (PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE) - Popup Trigger
+selectMenu(PAResourceQtoS.SrcChooserPanel_ADD_OR_CREATE_SOURCE_FILE, "Add"); // am (PAResourceQtoS.SrcChooserPanel_ADD_OR_CREATE_SOURCE_FILE, Add)
+selectMenuItem(RDIResource.AbstractCombinedPanel_REMOVE_SELECTED_ELEMENTS, "Remove"); // ap (RDIResource.AbstractCombinedPanel_REMOVE_SELECTED_ELEMENTS)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File", "Add Sources"); // a (PAResourceQtoS.SrcChooserPanel_CREATE_FILE)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "fre"); // ad (PAResourceAtoD.CreateSrcFileDialog_FILE_NAME)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "frequencymeter"); // ad (PAResourceAtoD.CreateSrcFileDialog_FILE_NAME)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Create Source File"); // f (RDIResource.BaseDialog_OK)
+dismissDialog("Create Source File"); // k (dialog10)
+selectButton("FINISH", "Finish", "Add Sources"); // JButton (FINISH)
+// 'f' command handler elapsed time: 27 seconds
+dismissDialog("Add Sources"); // c (dialog8)
+// Tcl Message: close [ open D:/XADC_Filtre/XADC_Filtre.srcs/sources_1/new/frequencymeter.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files D:/XADC_Filtre/XADC_Filtre.srcs/sources_1/new/frequencymeter.vhd 
+selectButton(RDIResource.BaseDialog_OK, "OK", "Define Module"); // f (RDIResource.BaseDialog_OK)
+selectButton("OptionPane.button", "Yes", "Define Module"); // JButton (OptionPane.button)
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Define Module"); // n (dialog11)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 09m:24s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 09m:26s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 09m:28s
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 09m:30s
+// Elapsed time: 22 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd)]", 14, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd)]", 14, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("frequencymeter.vhd", 23, 146); // ae (frequencymeter.vhd)
+typeControlKey((HResource) null, "frequencymeter.vhd", 'v'); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 88, 168); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 88, 168, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 90, 162); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 90, 162, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 88, 188); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 88, 188, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 89, 200); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 89, 200, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 94, 224); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 94, 224, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 105, 249); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 105, 249, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 105, 249); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 105, 249); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 105, 249, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 122, 267); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 122, 267, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 132, 281, false, false, false, true, false); // ae (frequencymeter.vhd) - Popup Trigger
+selectCodeEditor("frequencymeter.vhd", 98, 288); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 110, 270); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 110, 270, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 125, 289); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 125, 289, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("frequencymeter.vhd", 157, 73); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 157, 73, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 109, 271); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 109, 271, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+// Elapsed time: 16 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // C (PAResourceCommand.PACommandNames_ADD_SOURCES, Sources_add_sources)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next", "Add Sources"); // JButton (NEXT)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File", "Add Sources"); // a (PAResourceQtoS.SrcChooserPanel_CREATE_FILE)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "counter_periode"); // ad (PAResourceAtoD.CreateSrcFileDialog_FILE_NAME)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Create Source File"); // f (RDIResource.BaseDialog_OK)
+dismissDialog("Create Source File"); // k (dialog13)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File", "Add Sources"); // a (PAResourceQtoS.SrcChooserPanel_CREATE_FILE)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "diviseur"); // ad (PAResourceAtoD.CreateSrcFileDialog_FILE_NAME)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Create Source File"); // f (RDIResource.BaseDialog_OK)
+dismissDialog("Create Source File"); // k (dialog14)
+selectButton("FINISH", "Finish", "Add Sources"); // JButton (FINISH)
+// 'f' command handler elapsed time: 26 seconds
+dismissDialog("Add Sources"); // c (dialog12)
+// Tcl Message: close [ open D:/XADC_Filtre/XADC_Filtre.srcs/sources_1/new/counter_periode.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files D:/XADC_Filtre/XADC_Filtre.srcs/sources_1/new/counter_periode.vhd 
+// Tcl Message: close [ open D:/XADC_Filtre/XADC_Filtre.srcs/sources_1/new/diviseur.vhd w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files D:/XADC_Filtre/XADC_Filtre.srcs/sources_1/new/diviseur.vhd 
+selectButton(RDIResource.BaseDialog_OK, "OK", "Define Modules"); // f (RDIResource.BaseDialog_OK)
+selectButton("OptionPane.button", "Yes", "Define Modules"); // JButton (OptionPane.button)
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Define Modules"); // n (dialog15)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 11m:14s
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 11m:16s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 11m:18s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 11m:20s
+// [GUI Memory]: 161 MB (+3071kb) [00:11:32]
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd)]", 15, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd)]", 15, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("frequencymeter.vhd", 152, 189); // ae (frequencymeter.vhd)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, counter_periode(Behavioral) (counter_periode.vhd)]", 14, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, counter_periode(Behavioral) (counter_periode.vhd)]", 14, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("counter_periode.vhd", 262, 215); // ae (counter_periode.vhd)
+typeControlKey((HResource) null, "counter_periode.vhd", 'v'); // ae (counter_periode.vhd)
+selectCodeEditor("counter_periode.vhd", 302, 232); // ae (counter_periode.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 11m:42s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 11m:44s
+// Elapsed time: 54 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd)]", 15, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, module_daffichage(struct) (module_daffichage.vhd), gen_an : generateur_a(struct) (generateur_a.vhd)]", 12); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, XADC_Filtre(Behavioral) (XADC_Filtre.vhd)]", 3); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // C (PAResourceCommand.PACommandNames_ADD_SOURCES, Sources_add_sources)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next", "Add Sources"); // JButton (NEXT)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File", "Add Sources"); // a (PAResourceQtoS.SrcChooserPanel_CREATE_FILE)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "diviseur"); // ad (PAResourceAtoD.CreateSrcFileDialog_FILE_NAME)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Create Source File"); // f (RDIResource.BaseDialog_OK)
+// HOptionPane Warning: 'A file with the specified name already exists. Please enter another name. (Create Source File)'
+selectButton("OptionPane.button", "OK", "Create Source File"); // JButton (OptionPane.button)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel", "Create Source File"); // f (RDIResource.BaseDialog_CANCEL)
+dismissDialog("Create Source File"); // k (dialog17)
+// 'f' command handler elapsed time: 9 seconds
+dismissDialog("Add Sources"); // c (dialog16)
+// [Engine Memory]: 1,050 MB (+10788kb) [00:13:14]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,050 MB. GUI used memory: 88 MB. Current time: 1/14/26, 2:43:13 PM CET
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, bin_to_bcd6.vhd]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, bin_to_bcd6.vhd]", 2, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-1206] Syntax error near 'chat' [D:/XADC_Filtre/XADC_Filtre.srcs/sources_1/new/bin_to_bcd6.vhd:57]. ]", 2, false); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\XADC_Filtre\XADC_Filtre.srcs\sources_1\new\bin_to_bcd6.vhd;-;;-;16;-;line;-;57;-;;-;16;-;"); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-1206] Syntax error near 'chat' [D:/XADC_Filtre/XADC_Filtre.srcs/sources_1/new/bin_to_bcd6.vhd:57]. ]", 4, false); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\XADC_Filtre\XADC_Filtre.srcs\sources_1\new\bin_to_bcd6.vhd;-;;-;16;-;line;-;57;-;;-;16;-;"); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-1206] Syntax error near 'chat' [D:/XADC_Filtre/XADC_Filtre.srcs/sources_1/new/bin_to_bcd6.vhd:57]. ]", 4, false); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\XADC_Filtre\XADC_Filtre.srcs\sources_1\new\bin_to_bcd6.vhd;-;;-;16;-;line;-;57;-;;-;16;-;"); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 15); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 15); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save", "Save Project"); // f (PAResourceQtoS.SaveProjectUtils_SAVE)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // ac.d (dialog18)
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: INFO: [Project 1-1161] Replacing file D:/XADC_Filtre/XADC_Filtre.srcs/utils_1/imports/synth_1/main_project.dcp with file D:/XADC_Filtre/XADC_Filtre.runs/synth_1/XADC_Filtre.dcp 
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // f (RDIResource.BaseDialog_OK)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,050 MB. GUI used memory: 89 MB. Current time: 1/14/26, 2:43:32 PM CET
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+dismissDialog("Launch Runs"); // g (dialog19)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_runs synth_1 -jobs 10 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_LAUNCH
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/XADC_Filtre/XADC_Filtre.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci' is already up-to-date 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: [Wed Jan 14 14:43:45 2026] Launched synth_1... Run output will be captured here: D:/XADC_Filtre/XADC_Filtre.runs/synth_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 1683.375 ; gain = 0.000 
+// 'i' command handler elapsed time: 16 seconds
+// Elapsed time: 13 seconds
+dismissDialog("Starting Design Runs"); // bk (Starting Design Runs Progress)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 13m:38s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 13m:40s
+selectCodeEditor("bin_to_bcd6.vhd", 90, 334); // ae (bin_to_bcd6.vhd)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, XADC_Filtre(Behavioral) (XADC_Filtre.vhd)]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, XADC_Filtre(Behavioral) (XADC_Filtre.vhd), temp1 : tempo_diviser(Behavioral) (tempo.vhd)]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, XADC_Filtre(Behavioral) (XADC_Filtre.vhd), temp1 : tempo_diviser(Behavioral) (tempo.vhd)]", 4, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 154 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_REPORTS_WINDOW, "View Reports"); // a (PAResourceCommand.PACommandNames_REPORTS_WINDOW)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Synthesis Completed"); // f (RDIResource.BaseDialog_OK)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Synthesis Completed"); // W.a (dialog20)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd)]", 14); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), diviseur1 : xil_defaultlib.diviseur]", 16, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), diviseur1 : xil_defaultlib.diviseur]", 16, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("tempo.vhd", 255, 228); // ae (tempo.vhd)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), diviseur1 : xil_defaultlib.diviseur]", 16, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), diviseur1 : xil_defaultlib.diviseur]", 16, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), diviseur1 : xil_defaultlib.diviseur]", 16, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), diviseur1 : xil_defaultlib.diviseur]", 16, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), counter_periode1 : counter_periode(Behavioral) (counter_periode.vhd)]", 15, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), diviseur1 : xil_defaultlib.diviseur]", 16, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), diviseur1 : xil_defaultlib.diviseur]", 16, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // am (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // am (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // am (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // am (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), diviseur1 : xil_defaultlib.diviseur]", 16, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), diviseur1 : xil_defaultlib.diviseur]", 16, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), diviseur1 : xil_defaultlib.diviseur]", 16, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // C (PAResourceCommand.PACommandNames_ADD_SOURCES, Sources_add_sources)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next", "Add Sources"); // JButton (NEXT)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File", "Add Sources"); // a (PAResourceQtoS.SrcChooserPanel_CREATE_FILE)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "diviseur"); // ad (PAResourceAtoD.CreateSrcFileDialog_FILE_NAME)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Create Source File"); // f (RDIResource.BaseDialog_OK)
+// HOptionPane Warning: 'A file with the specified name already exists. Please enter another name. (Create Source File)'
+selectButton("OptionPane.button", "OK", "Create Source File"); // JButton (OptionPane.button)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Create Source File"); // f (RDIResource.BaseDialog_OK)
+selectButton("OptionPane.button", "OK", "Create Source File"); // JButton (OptionPane.button)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel", "Create Source File"); // f (RDIResource.BaseDialog_CANCEL)
+dismissDialog("Create Source File"); // k (dialog22)
+selectButton("CANCEL", "Cancel", "Add Sources"); // JButton (CANCEL)
+// 'f' command handler elapsed time: 11 seconds
+dismissDialog("Add Sources"); // c (dialog21)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, PAResourceEtoH.FileSetView_ADD_TAB, "IP Sources", 1); // g (PAResourceEtoH.FileSetView_TABBED_PANE, SourcesView)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, PAResourceEtoH.FileSetView_ADD_TAB, "Libraries", 2); // g (PAResourceEtoH.FileSetView_TABBED_PANE, SourcesView)
+// Elapsed time: 10 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, PAResourceEtoH.FileSetView_ADD_TAB, "IP Sources", 1); // g (PAResourceEtoH.FileSetView_TABBED_PANE, SourcesView)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, PAResourceEtoH.FileSetView_INSERT_TAB, "Hierarchy", 0); // g (PAResourceEtoH.FileSetView_TABBED_PANE, SourcesView)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), diviseur1 : xil_defaultlib.diviseur]", 16, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), diviseur1 : xil_defaultlib.diviseur]", 16, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), diviseur1 : xil_defaultlib.diviseur]", 16, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), diviseur1 : xil_defaultlib.diviseur]", 16, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // am (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // am (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ap (PAResourceCommand.PACommandNames_ADD_SOURCES, add_sources_menu)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next", "Add Sources"); // JButton (NEXT)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_DIRECTORIES, "Add Directories", "Add Sources"); // a (PAResourceQtoS.SrcChooserPanel_ADD_DIRECTORIES)
+// Elapsed time: 15 seconds
+dismissFolderChooser();
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files", "Add Sources"); // a (PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT)
+selectButton((HResource) null, "FileChooser.upFolderIcon", "Add Source Files"); // JButton (FileChooser.upFolderIcon)
+setFileChooser("D:/XADC_Filtre/XADC_Filtre.srcs/sources_1/new/diviseur.vhd");
+selectButton("FINISH", "Finish", "Add Sources"); // JButton (FINISH)
+// 'f' command handler elapsed time: 40 seconds
+dismissDialog("Add Sources"); // c (dialog23)
+// Tcl Message: add_files -norecurse D:/XADC_Filtre/XADC_Filtre.srcs/sources_1/new/diviseur.vhd 
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), diviseur1 : xil_defaultlib.diviseur]", 16, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), diviseur1 : xil_defaultlib.diviseur]", 16, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), diviseur1 : xil_defaultlib.diviseur]", 16, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // am (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // am (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenuItem(PAResourceQtoS.SrcMenu_REFRESH_HIERARCHY, "Refresh Hierarchy"); // ap (PAResourceQtoS.SrcMenu_REFRESH_HIERARCHY)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 18m:36s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 18m:38s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), diviseur1 : xil_defaultlib.diviseur]", 16, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // am (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // am (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenuItem(PAResourceQtoS.SrcMenu_REFRESH_HIERARCHY, "Refresh Hierarchy"); // ap (PAResourceQtoS.SrcMenu_REFRESH_HIERARCHY)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 18m:42s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 18m:44s
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 21 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, module_daffichage(struct) (module_daffichage.vhd), gen_an : generateur_a(struct) (generateur_a.vhd), reg2 : compteur_an(Behavioral) (compteur_an.vhd)]", 13, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // am (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenuItem(PAResourceQtoS.SrcMenu_REFRESH_HIERARCHY, "Refresh Hierarchy"); // ap (PAResourceQtoS.SrcMenu_REFRESH_HIERARCHY)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 19m:04s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 19m:06s
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // C (PAResourceCommand.PACommandNames_ADD_SOURCES, Sources_add_sources)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next", "Add Sources"); // JButton (NEXT)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File", "Add Sources"); // a (PAResourceQtoS.SrcChooserPanel_CREATE_FILE)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "Diviseur"); // ad (PAResourceAtoD.CreateSrcFileDialog_FILE_NAME)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Create Source File"); // f (RDIResource.BaseDialog_OK)
+dismissDialog("Create Source File"); // k (dialog27)
+selectButton("FINISH", "Finish", "Add Sources"); // JButton (FINISH)
+// 'f' command handler elapsed time: 7 seconds
+dismissDialog("Add Sources"); // c (dialog26)
+// Tcl Message: close [ open D:/XADC_Filtre/XADC_Filtre.srcs/sources_1/new/Diviseur.vhd w ] 
+// Tcl Message: add_files D:/XADC_Filtre/XADC_Filtre.srcs/sources_1/new/Diviseur.vhd 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_OK, "OK", "Define Module"); // f (RDIResource.BaseDialog_OK)
+selectButton("OptionPane.button", "Yes", "Define Module"); // JButton (OptionPane.button)
+dismissDialog("Define Module"); // n (dialog28)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 19m:18s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 19m:20s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), diviseur1 : Diviseur(Behavioral) (diviseur.vhd)]", 16, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), diviseur1 : Diviseur(Behavioral) (diviseur.vhd)]", 16, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("diviseur.vhd", 429, 194); // ae (diviseur.vhd)
+typeControlKey((HResource) null, "diviseur.vhd", 'v'); // ae (diviseur.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 19m:30s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 19m:32s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: L’opération a réussi.  
+// Elapsed time: 29 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), counter_periode1 : counter_periode(Behavioral) (counter_periode.vhd)]", 15, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), counter_periode1 : counter_periode(Behavioral) (counter_periode.vhd)]", 15, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd)]", 14, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd)]", 14, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd)]", 14); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectCodeEditor("frequencymeter.vhd", 118, 115); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 118, 115, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 118, 115); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 118, 115); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 118, 115, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 150, 148); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 150, 148, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 138, 138); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 138, 138, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 12, 306); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 12, 306, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), diviseur1 : diviseur(Behavioral) (diviseur.vhd)]", 16, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), diviseur1 : diviseur(Behavioral) (diviseur.vhd)]", 16, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd)]", 14, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd)]", 14, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// Elapsed time: 11 seconds
+selectCodeEditor("frequencymeter.vhd", 48, 271); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 48, 271, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 115, 263); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 115, 263, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 115, 263); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 115, 263, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+// Elapsed time: 20 seconds
+selectCodeEditor("frequencymeter.vhd", 162, 184); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 162, 184, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 33, 267); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 20, 277); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 20, 277, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("frequencymeter.vhd", 180, 225); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 180, 225, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 164, 205); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 164, 205, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+// Elapsed time: 19 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, module_daffichage(struct) (module_daffichage.vhd)]", 8); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed time: 217 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, module_daffichage(struct) (module_daffichage.vhd)]", 8); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// [GUI Memory]: 171 MB (+2315kb) [00:26:05]
+// Elapsed time: 11 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, module_daffichage(struct) (module_daffichage.vhd), gen_an : generateur_a(struct) (generateur_a.vhd)]", 11); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, module_daffichage(struct) (module_daffichage.vhd), gen_an : generateur_a(struct) (generateur_a.vhd)]", 11, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, module_daffichage(struct) (module_daffichage.vhd), gen_an : generateur_a(struct) (generateur_a.vhd)]", 11, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, module_daffichage(struct) (module_daffichage.vhd), gen_an : generateur_a(struct) (generateur_a.vhd)]", 11); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd)]", 12); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), counter_periode1 : counter_periode(Behavioral) (counter_periode.vhd)]", 13, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), counter_periode1 : counter_periode(Behavioral) (counter_periode.vhd)]", 13, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Elapsed time: 31 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), diviseur1 : diviseur(Behavioral) (diviseur.vhd)]", 14, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), diviseur1 : diviseur(Behavioral) (diviseur.vhd)]", 14, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,070 MB. GUI used memory: 95 MB. Current time: 1/14/26, 2:58:18 PM CET
+// Elapsed time: 313 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, bin_to_bcd6(Behavioral) (bin_to_bcd6.vhd)]", 15, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, bin_to_bcd6(Behavioral) (bin_to_bcd6.vhd)]", 15, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Elapsed time: 445 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd)]", 12, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd)]", 12, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd)]", 12, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd)]", 12); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), counter_periode1 : counter_periode(Behavioral) (counter_periode.vhd)]", 13, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), counter_periode1 : counter_periode(Behavioral) (counter_periode.vhd)]", 13, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), diviseur1 : diviseur(Behavioral) (diviseur.vhd)]", 14, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), diviseur1 : diviseur(Behavioral) (diviseur.vhd)]", 14, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("diviseur.vhd", 95, 220); // ae (diviseur.vhd)
+selectCodeEditor("diviseur.vhd", 95, 220, false, false, false, false, true); // ae (diviseur.vhd) - Double Click
+selectCodeEditor("diviseur.vhd", 103, 238); // ae (diviseur.vhd)
+selectCodeEditor("diviseur.vhd", 103, 238, false, false, false, false, true); // ae (diviseur.vhd) - Double Click
+selectCodeEditor("diviseur.vhd", 477, 229); // ae (diviseur.vhd)
+selectCodeEditor("diviseur.vhd", 497, 242); // ae (diviseur.vhd)
+// Elapsed time: 19 seconds
+selectCodeEditor("diviseur.vhd", 571, 243); // ae (diviseur.vhd)
+selectCodeEditor("diviseur.vhd", 555, 220); // ae (diviseur.vhd)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd)]", 12, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd)]", 12, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectCodeEditor("frequencymeter.vhd", 485, 222); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 93, 93); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 93, 93, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 85, 109); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 85, 109, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 86, 132); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 86, 132, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 98, 160); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 98, 160, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 108, 185); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 108, 185, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, XADC_Filtre(Behavioral) (XADC_Filtre.vhd)]", 2, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, XADC_Filtre(Behavioral) (XADC_Filtre.vhd)]", 2, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd)]", 7, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd)]", 7, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectCodeEditor("frequencymeter.vhd", 180, 303); // ae (frequencymeter.vhd)
+typeControlKey((HResource) null, "frequencymeter.vhd", 'c'); // ae (frequencymeter.vhd)
+// Elapsed time: 13 seconds
+selectCodeEditor("frequencymeter.vhd", 206, 176); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 107, 242); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 107, 242, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 150, 257); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 150, 257, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("frequencymeter.vhd", 14, 346); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 14, 346, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("frequencymeter.vhd", 114, 268); // ae (frequencymeter.vhd)
+// Elapsed time: 14 seconds
+selectCodeEditor("frequencymeter.vhd", 69, 250); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 100, 222); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 100, 222, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 113, 247); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 113, 247, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 186, 269); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 186, 269, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 186, 269); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 186, 269); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 186, 269, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+// Elapsed time: 16 seconds
+selectCodeEditor("frequencymeter.vhd", 157, 159); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 157, 159, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 264, 271); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 509, 248); // ae (frequencymeter.vhd)
+// Elapsed time: 29 seconds
+selectCodeEditor("frequencymeter.vhd", 72, 263); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 69, 292); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 460, 245); // ae (frequencymeter.vhd)
+// Elapsed time: 22 seconds
+selectCodeEditor("frequencymeter.vhd", 246, 248); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 199, 324); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 447, 181); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 0, 242); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 517, 229); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 478, 275); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 94, 273); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 94, 273, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 27, 306); // ae (frequencymeter.vhd)
+typeControlKey((HResource) null, "frequencymeter.vhd", 'c'); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 280, 182); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 685, 234); // ae (frequencymeter.vhd)
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, bin_to_bcd6(Behavioral) (bin_to_bcd6.vhd)]", 10, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, bin_to_bcd6(Behavioral) (bin_to_bcd6.vhd)]", 10, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd)]", 7, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd)]", 7, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd)]", 7); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectCodeEditor("frequencymeter.vhd", 293, 149); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 208, 224); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 134, 261); // ae (frequencymeter.vhd)
+// Elapsed time: 15 seconds
+selectCodeEditor("frequencymeter.vhd", 88, 229); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 88, 229, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 91, 241); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 91, 241, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), diviseur1 : diviseur(Behavioral) (diviseur.vhd)]", 9, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), diviseur1 : diviseur(Behavioral) (diviseur.vhd)]", 9, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd)]", 7, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd)]", 7, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectCodeEditor("frequencymeter.vhd", 13, 289); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 13, 289, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 11, 303); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 11, 303, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 8, 279); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 8, 279, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 177, 99); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 198, 260); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 198, 260, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("frequencymeter.vhd", 98, 266); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 98, 266, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 95, 282); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 95, 282, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 95, 267); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 95, 267, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 87, 247); // ae (frequencymeter.vhd)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("frequencymeter.vhd", 115, 279); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 163, 224); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 163, 224, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 142, 221); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 145, 222, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+typeControlKey((HResource) null, "frequencymeter.vhd", 'c'); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 146, 248); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 146, 248, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+typeControlKey((HResource) null, "frequencymeter.vhd", 'v'); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 301, 250); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 152, 181); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 152, 181, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 160, 199); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 160, 199, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+selectCodeEditor("frequencymeter.vhd", 176, 268); // ae (frequencymeter.vhd)
+selectCodeEditor("frequencymeter.vhd", 176, 268, false, false, false, false, true); // ae (frequencymeter.vhd) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("frequencymeter.vhd", 15, 308); // ae (frequencymeter.vhd)
+typeControlKey((HResource) null, "frequencymeter.vhd", 'c'); // ae (frequencymeter.vhd)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, module_daffichage(struct) (module_daffichage.vhd)]", 3, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, module_daffichage(struct) (module_daffichage.vhd)]", 3, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectCodeEditor("module_daffichage.vhd", 107, 254); // ae (module_daffichage.vhd)
+selectCodeEditor("module_daffichage.vhd", 63, 126); // ae (module_daffichage.vhd)
+selectCodeEditor("module_daffichage.vhd", 34, 118); // ae (module_daffichage.vhd)
+selectCodeEditor("module_daffichage.vhd", 5, 158); // ae (module_daffichage.vhd)
+typeControlKey((HResource) null, "module_daffichage.vhd", 'v'); // ae (module_daffichage.vhd)
+// Elapsed time: 10 seconds
+selectCodeEditor("module_daffichage.vhd", 90, 152); // ae (module_daffichage.vhd)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("module_daffichage.vhd", 80, 220); // ae (module_daffichage.vhd)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, XADC_Filtre(Behavioral) (XADC_Filtre.vhd)]", 2, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, XADC_Filtre(Behavioral) (XADC_Filtre.vhd)]", 2, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectCodeEditor("XADC_Filtre.vhd", 49, 190); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 169, 325); // ae (XADC_Filtre.vhd)
+typeControlKey((HResource) null, "XADC_Filtre.vhd", 'v'); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 1, 369); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 179, 223); // ae (XADC_Filtre.vhd)
+typeControlKey((HResource) null, "XADC_Filtre.vhd", 'c'); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 56, 221); // ae (XADC_Filtre.vhd)
+typeControlKey((HResource) null, "XADC_Filtre.vhd", 'v'); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 39, 220); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 74, 241); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 170, 248); // ae (XADC_Filtre.vhd)
+// Elapsed time: 11 seconds
+selectCodeEditor("XADC_Filtre.vhd", 70, 204); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 70, 204, false, false, false, false, true); // ae (XADC_Filtre.vhd) - Double Click
+selectCodeEditor("XADC_Filtre.vhd", 243, 162); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 68, 204); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 168, 266); // ae (XADC_Filtre.vhd)
+typeControlKey((HResource) null, "XADC_Filtre.vhd", 'c'); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 62, 201); // ae (XADC_Filtre.vhd)
+typeControlKey((HResource) null, "XADC_Filtre.vhd", 'v'); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 733, 240); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 128, 114); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 207, 201); // ae (XADC_Filtre.vhd)
+// Elapsed time: 29 seconds
+selectCodeEditor("XADC_Filtre.vhd", 384, 180); // ae (XADC_Filtre.vhd)
+// Elapsed time: 30 seconds
+selectCodeEditor("XADC_Filtre.vhd", 394, 288); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 338, 292); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 297, 212); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 294, 224); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 294, 224, false, false, false, false, true); // ae (XADC_Filtre.vhd) - Double Click
+typeControlKey((HResource) null, "XADC_Filtre.vhd", 'c'); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 293, 203); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 293, 203, false, false, false, false, true); // ae (XADC_Filtre.vhd) - Double Click
+typeControlKey((HResource) null, "XADC_Filtre.vhd", 'v'); // ae (XADC_Filtre.vhd)
+// Elapsed time: 24 seconds
+selectCodeEditor("XADC_Filtre.vhd", 157, 368); // ae (XADC_Filtre.vhd)
+typeControlKey((HResource) null, "XADC_Filtre.vhd", 'c'); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 71, 208); // ae (XADC_Filtre.vhd)
+typeControlKey((HResource) null, "XADC_Filtre.vhd", 'v'); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 63, 150); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 31, 265); // ae (XADC_Filtre.vhd)
+// Elapsed time: 15 seconds
+selectCodeEditor("XADC_Filtre.vhd", 667, 73); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 343, 284); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 177, 241); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 177, 241, false, false, false, false, true); // ae (XADC_Filtre.vhd) - Double Click
+selectCodeEditor("XADC_Filtre.vhd", 328, 330); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 123, 80); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 60, 243); // ae (XADC_Filtre.vhd)
+// Elapsed time: 395 seconds
+selectCodeEditor("XADC_Filtre.vhd", 186, 274); // ae (XADC_Filtre.vhd)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd)]", 9); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), counter_periode1 : counter_periode(Behavioral) (counter_periode.vhd)]", 10, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), counter_periode1 : counter_periode(Behavioral) (counter_periode.vhd)]", 10, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,070 MB. GUI used memory: 97 MB. Current time: 1/14/26, 3:28:18 PM CET
+// Elapsed time: 56 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), diviseur1 : diviseur(Behavioral) (diviseur.vhd)]", 11, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), diviseur1 : diviseur(Behavioral) (diviseur.vhd)]", 11, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Elapsed time: 145 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tempo.vhd", 4); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "XADC_Filtre.vhd", 7); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), counter_periode1 : counter_periode(Behavioral) (counter_periode.vhd)]", 10, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd), counter_periode1 : counter_periode(Behavioral) (counter_periode.vhd)]", 10, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Elapsed time: 21 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd)]", 9, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, frequencymeter(Behavioral) (frequencymeter.vhd)]", 9, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, XADC_Filtre(Behavioral) (XADC_Filtre.vhd)]", 2, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, XADC_Filtre(Behavioral) (XADC_Filtre.vhd)]", 2, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectCodeEditor("XADC_Filtre.vhd", 186, 93); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 200, 144); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 227, 201); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 233, 177); // ae (XADC_Filtre.vhd)
+typeControlKey((HResource) null, "XADC_Filtre.vhd", 'c'); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 238, 283); // ae (XADC_Filtre.vhd)
+typeControlKey((HResource) null, "XADC_Filtre.vhd", 'v'); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 258, 142); // ae (XADC_Filtre.vhd)
+typeControlKey((HResource) null, "XADC_Filtre.vhd", 'c'); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 247, 328); // ae (XADC_Filtre.vhd)
+typeControlKey((HResource) null, "XADC_Filtre.vhd", 'v'); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 234, 165); // ae (XADC_Filtre.vhd)
+typeControlKey((HResource) null, "XADC_Filtre.vhd", 'c'); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 235, 304); // ae (XADC_Filtre.vhd)
+typeControlKey((HResource) null, "XADC_Filtre.vhd", 'v'); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 216, 279); // ae (XADC_Filtre.vhd)
+// Elapsed time: 20 seconds
+selectCodeEditor("XADC_Filtre.vhd", 239, 122); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 239, 122, false, false, false, false, true); // ae (XADC_Filtre.vhd) - Double Click
+typeControlKey((HResource) null, "XADC_Filtre.vhd", 'c'); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 271, 221); // ae (XADC_Filtre.vhd)
+typeControlKey((HResource) null, "XADC_Filtre.vhd", 'v'); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 142, 205); // ae (XADC_Filtre.vhd)
+typeControlKey((HResource) null, "XADC_Filtre.vhd", 'c'); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 143, 231); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 143, 221); // ae (XADC_Filtre.vhd)
+typeControlKey((HResource) null, "XADC_Filtre.vhd", 'v'); // ae (XADC_Filtre.vhd)
+// Elapsed time: 139 seconds
+selectCodeEditor("XADC_Filtre.vhd", 119, 237); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 119, 237, false, false, false, false, true); // ae (XADC_Filtre.vhd) - Double Click
+// Elapsed time: 113 seconds
+selectCodeEditor("XADC_Filtre.vhd", 273, 191); // ae (XADC_Filtre.vhd)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save", "Save Project"); // f (PAResourceQtoS.SaveProjectUtils_SAVE)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // ac.d (dialog29)
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file D:/XADC_Filtre/XADC_Filtre.srcs/utils_1/imports/synth_1/main_project.dcp with file D:/XADC_Filtre/XADC_Filtre.runs/synth_1/XADC_Filtre.dcp 
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // f (RDIResource.BaseDialog_OK)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,070 MB. GUI used memory: 98 MB. Current time: 1/14/26, 3:37:16 PM CET
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+dismissDialog("Launch Runs"); // g (dialog30)
+// Tcl Message: launch_runs synth_1 -jobs 10 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: L’opération a réussi.  ERROR: [Vivado 12-4756] Launch of runs aborted due to earlier errors while preparing sub-designs for run execution. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Vivado 12-4756] Launch of runs aborted due to earlier errors while preparing sub-designs for run execution.  
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: L’opération a réussi.  
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 01h:07m:10s
+selectButton(PAResourceAtoD.CmdMsgDialog_OPEN_MESSAGES_VIEW, "Open Messages View", "Launch Run Critical Messages"); // a (PAResourceAtoD.CmdMsgDialog_OPEN_MESSAGES_VIEW)
+// 'i' command handler elapsed time: 4 seconds
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Launch Run Critical Messages"); // bc (dialog31)
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 01h:07m:12s
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-1206] Syntax error near ':' [D:/XADC_Filtre/XADC_Filtre.srcs/sources_1/new/XADC_Filtre.vhd:171]. ]", 6, false); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\XADC_Filtre\XADC_Filtre.srcs\sources_1\new\XADC_Filtre.vhd;-;;-;16;-;line;-;171;-;;-;16;-;"); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE)
+selectCodeEditor("XADC_Filtre.vhd", 110, 234); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 108, 223); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 106, 248); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 117, 265); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 131, 288); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 142, 308); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 140, 202); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 140, 202, false, false, false, false, true); // ae (XADC_Filtre.vhd) - Double Click
+typeControlKey((HResource) null, "XADC_Filtre.vhd", 'c'); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 441, 195); // ae (XADC_Filtre.vhd)
+typeControlKey((HResource) null, "XADC_Filtre.vhd", 'v'); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 152, 181); // ae (XADC_Filtre.vhd)
+typeControlKey((HResource) null, "XADC_Filtre.vhd", 'c'); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 144, 197); // ae (XADC_Filtre.vhd)
+typeControlKey((HResource) null, "XADC_Filtre.vhd", 'v'); // ae (XADC_Filtre.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 01h:07m:44s
+// Tcl Message: INFO: [Common 17-14] Message 'filemgmt 56-199' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. 
+selectCodeEditor("XADC_Filtre.vhd", 205, 176); // ae (XADC_Filtre.vhd)
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 01h:07m:46s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 01h:07m:50s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 01h:07m:52s
+// Elapsed time: 28 seconds
+selectCodeEditor("XADC_Filtre.vhd", 157, 291); // ae (XADC_Filtre.vhd)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save", "Save Project"); // f (PAResourceQtoS.SaveProjectUtils_SAVE)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // ac.d (dialog32)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 01h:08m:24s
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // f (RDIResource.BaseDialog_OK)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,070 MB. GUI used memory: 98 MB. Current time: 1/14/26, 3:38:32 PM CET
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+dismissDialog("Launch Runs"); // g (dialog33)
+// Tcl Message: launch_runs synth_1 -jobs 10 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_LAUNCH
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/XADC_Filtre/XADC_Filtre.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci' is already up-to-date 
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: L’opération a réussi.  
+// TclEventType: RUN_MODIFY
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: [Wed Jan 14 15:38:45 2026] Launched synth_1... Run output will be captured here: D:/XADC_Filtre/XADC_Filtre.runs/synth_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 1687.305 ; gain = 0.000 
+// Tcl Message: ERROR: [Common 17-39] 'launch_runs' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_runs' failed due to earlier errors.  
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 01h:08m:38s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 01h:08m:40s
+// Elapsed time: 20 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OPEN_MESSAGES_VIEW, "Open Messages View", "Launch Run Critical Messages"); // a (PAResourceAtoD.CmdMsgDialog_OPEN_MESSAGES_VIEW)
+// 'i' command handler elapsed time: 23 seconds
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Launch Run Critical Messages"); // bc (dialog34)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 89 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK", "Synthesis Completed"); // f (RDIResource.BaseDialog_OK)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Synthesis Completed"); // W.a (dialog35)
+// Elapsed time: 30 seconds
+selectCodeEditor("XADC_Filtre.vhd", 130, 239); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 130, 239, false, false, false, false, true); // ae (XADC_Filtre.vhd) - Double Click
+selectCodeEditor("XADC_Filtre.vhd", 139, 284); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 139, 284, false, false, false, false, true); // ae (XADC_Filtre.vhd) - Double Click
+selectCodeEditor("XADC_Filtre.vhd", 152, 268); // ae (XADC_Filtre.vhd)
+selectCodeEditor("XADC_Filtre.vhd", 152, 268, false, false, false, false, true); // ae (XADC_Filtre.vhd) - Double Click
+typeControlKey((HResource) null, "XADC_Filtre.vhd", 'c'); // ae (XADC_Filtre.vhd)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, XADC_Filtre(Behavioral) (XADC_Filtre.vhd)]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, XADC_Filtre(Behavioral) (XADC_Filtre.vhd), Frequ : frequencymeter(Behavioral) (frequencymeter.vhd)]", 8); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, XADC_Filtre(Behavioral) (XADC_Filtre.vhd), Frequ : frequencymeter(Behavioral) (frequencymeter.vhd)]", 8); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 11); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, const.xdc]", 13, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, const.xdc]", 13, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("const.xdc", 702, 137); // ae (const.xdc)
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 10, 138); // ae (const.xdc)
+// Elapsed time: 66 seconds
+selectCodeEditor("const.xdc", 682, 155); // ae (const.xdc)
+selectCodeEditor("const.xdc", 682, 155, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 684, 175); // ae (const.xdc)
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 682, 191); // ae (const.xdc)
+selectCodeEditor("const.xdc", 684, 183); // ae (const.xdc)
+selectCodeEditor("const.xdc", 684, 183, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 682, 194); // ae (const.xdc)
+selectCodeEditor("const.xdc", 682, 194, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 672, 212); // ae (const.xdc)
+selectCodeEditor("const.xdc", 672, 212, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 675, 235); // ae (const.xdc)
+selectCodeEditor("const.xdc", 675, 235, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 674, 260); // ae (const.xdc)
+selectCodeEditor("const.xdc", 674, 260, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 671, 285); // ae (const.xdc)
+selectCodeEditor("const.xdc", 671, 285, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 674, 310); // ae (const.xdc)
+selectCodeEditor("const.xdc", 674, 310, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 674, 325); // ae (const.xdc)
+selectCodeEditor("const.xdc", 674, 325, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 791, 96); // ae (const.xdc)
+typeControlKey((HResource) null, "const.xdc", 'c'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 767, 75); // ae (const.xdc)
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+// Elapsed time: 12 seconds
+selectCodeEditor("const.xdc", 716, 201); // ae (const.xdc)
+selectCodeEditor("const.xdc", 716, 201, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'c'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 682, 224); // ae (const.xdc)
+selectCodeEditor("const.xdc", 682, 224, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 678, 238); // ae (const.xdc)
+selectCodeEditor("const.xdc", 678, 238, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 678, 261); // ae (const.xdc)
+selectCodeEditor("const.xdc", 678, 261, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 0, 286); // ae (const.xdc)
+selectCodeEditor("const.xdc", 1, 302); // ae (const.xdc)
+selectCodeEditor("const.xdc", 3, 325); // ae (const.xdc)
+selectCodeEditor("const.xdc", 34, 301, false, false, false, true, false); // ae (const.xdc) - Popup Trigger
+// Elapsed time: 16 seconds
+selectCodeEditor("const.xdc", 17, 301); // ae (const.xdc)
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("const.xdc", 275, 253); // ae (const.xdc)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes", "Synthesis is Out-of-date"); // f (RDIResource.BaseDialog_YES)
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+dismissDialog("Synthesis is Out-of-date"); // x (dialog36)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file D:/XADC_Filtre/XADC_Filtre.srcs/utils_1/imports/synth_1/main_project.dcp with file D:/XADC_Filtre/XADC_Filtre.runs/synth_1/XADC_Filtre.dcp 
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // f (RDIResource.BaseDialog_OK)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,070 MB. GUI used memory: 100 MB. Current time: 1/14/26, 3:43:27 PM CET
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+dismissDialog("Launch Runs"); // cP (dialog37)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/XADC_Filtre/XADC_Filtre.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci' is already up-to-date 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: [Wed Jan 14 15:43:40 2026] Launched synth_1... Run output will be captured here: D:/XADC_Filtre/XADC_Filtre.runs/synth_1/runme.log [Wed Jan 14 15:43:40 2026] Launched impl_1... Run output will be captured here: D:/XADC_Filtre/XADC_Filtre.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 1687.492 ; gain = 0.000 
+// Elapsed time: 12 seconds
+dismissDialog("Generate Bitstream"); // bk (Generate Bitstream Progress)
+// Elapsed time: 19 seconds
+selectCodeEditor("const.xdc", 786, 141); // ae (const.xdc)
+selectCodeEditor("const.xdc", 720, 120); // ae (const.xdc)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 65 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK", "Implementation Failed"); // f (RDIResource.BaseDialog_OK)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // W.a (dialog38)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save", "Save Project"); // f (PAResourceQtoS.SaveProjectUtils_SAVE)
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Save Project"); // ac.d (dialog39)
+selectButton(RDIResource.BaseDialog_YES, "Yes", "Synthesis is Out-of-date"); // f (RDIResource.BaseDialog_YES)
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+dismissDialog("Synthesis is Out-of-date"); // x (dialog40)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file D:/XADC_Filtre/XADC_Filtre.srcs/utils_1/imports/synth_1/main_project.dcp with file D:/XADC_Filtre/XADC_Filtre.runs/synth_1/XADC_Filtre.dcp 
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // f (RDIResource.BaseDialog_OK)
+// 'cM' command handler elapsed time: 3 seconds
+// HMemoryUtils.trashcanNow. Engine heap size: 1,070 MB. GUI used memory: 101 MB. Current time: 1/14/26, 3:45:13 PM CET
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+dismissDialog("Launch Runs"); // cP (dialog41)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/XADC_Filtre/XADC_Filtre.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci' is already up-to-date 
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: INFO: [Common 17-14] Message 'filemgmt 56-199' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. 
+// TclEventType: RUN_MODIFY
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: [Wed Jan 14 15:45:25 2026] Launched synth_1... Run output will be captured here: D:/XADC_Filtre/XADC_Filtre.runs/synth_1/runme.log [Wed Jan 14 15:45:25 2026] Launched impl_1... Run output will be captured here: D:/XADC_Filtre/XADC_Filtre.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:13 . Memory (MB): peak = 1698.309 ; gain = 0.000 
+// Elapsed time: 12 seconds
+dismissDialog("Generate Bitstream"); // bk (Generate Bitstream Progress)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 44 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, XADC_Filtre(Behavioral) (XADC_Filtre.vhd), Frequ : frequencymeter(Behavioral) (frequencymeter.vhd)]", 8); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, XADC_Filtre(Behavioral) (XADC_Filtre.vhd), Frequ : frequencymeter(Behavioral) (frequencymeter.vhd), diviseur1 : diviseur(Behavioral) (diviseur.vhd)]", 10, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, XADC_Filtre(Behavioral) (XADC_Filtre.vhd), Frequ : frequencymeter(Behavioral) (frequencymeter.vhd), diviseur1 : diviseur(Behavioral) (diviseur.vhd)]", 10, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("diviseur.vhd", 131, 79); // ae (diviseur.vhd)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, XADC_Filtre(Behavioral) (XADC_Filtre.vhd), Frequ : frequencymeter(Behavioral) (frequencymeter.vhd), counter_periode1 : counter_periode(Behavioral) (counter_periode.vhd)]", 9, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, XADC_Filtre(Behavioral) (XADC_Filtre.vhd), Frequ : frequencymeter(Behavioral) (frequencymeter.vhd), counter_periode1 : counter_periode(Behavioral) (counter_periode.vhd)]", 9, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 63 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK", "Implementation Failed"); // f (RDIResource.BaseDialog_OK)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // W.a (dialog42)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Vivado 12-1411] Cannot set LOC property of ports, Could not legally place instance . vauxp3_IBUF_inst.  at A14 (IOB_X0Y131) since it belongs to a shape containing instance .  vauxn3_IBUF_inst. The shape requires relative placement between .  vauxp3_IBUF_inst and . vauxn3_IBUF_inst.  that can not be honoured because it would result in an invalid location for . vauxn3_IBUF_inst. [D:/XADC_Filtre/XADC_Filtre.srcs/constrs_1/new/const.xdc:128]. ]", 6, true); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\XADC_Filtre\XADC_Filtre.srcs\constrs_1\new\const.xdc;-;;-;16;-;line;-;128;-;;-;16;-;"); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE)
+// Elapsed time: 25 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Vivado 12-1411] Cannot set LOC property of ports, Could not legally place instance . vauxp3_IBUF_inst.  at A14 (IOB_X0Y131) since it belongs to a shape containing instance .  vauxn3_IBUF_inst. The shape requires relative placement between .  vauxp3_IBUF_inst and . vauxn3_IBUF_inst.  that can not be honoured because it would result in an invalid location for . vauxn3_IBUF_inst. [D:/XADC_Filtre/XADC_Filtre.srcs/constrs_1/new/const.xdc:128]. ]", 6, true); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE) - Node
+selectButton(PAResourceItoN.MsgView_CLEAR_MESSAGES_RESULTING_FROM_USER_EXECUTED, "Messages_cleanUpMessages"); // C (PAResourceItoN.MsgView_CLEAR_MESSAGES_RESULTING_FROM_USER_EXECUTED, Messages_cleanUpMessages)
+// Elapsed time: 57 seconds
+selectCodeEditor("const.xdc", 523, 160); // ae (const.xdc)
+selectCodeEditor("const.xdc", 520, 129); // ae (const.xdc)
+selectCodeEditor("const.xdc", 521, 118); // ae (const.xdc)
+selectCodeEditor("const.xdc", 521, 93); // ae (const.xdc)
+selectCodeEditor("const.xdc", 522, 75); // ae (const.xdc)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save", "Save Project"); // f (PAResourceQtoS.SaveProjectUtils_SAVE)
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Save Project"); // ac.d (dialog43)
+selectButton(RDIResource.BaseDialog_YES, "Yes", "Synthesis is Out-of-date"); // f (RDIResource.BaseDialog_YES)
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+dismissDialog("Synthesis is Out-of-date"); // x (dialog44)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file D:/XADC_Filtre/XADC_Filtre.srcs/utils_1/imports/synth_1/main_project.dcp with file D:/XADC_Filtre/XADC_Filtre.runs/synth_1/XADC_Filtre.dcp 
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // f (RDIResource.BaseDialog_OK)
+// 'cM' command handler elapsed time: 3 seconds
+// HMemoryUtils.trashcanNow. Engine heap size: 1,070 MB. GUI used memory: 102 MB. Current time: 1/14/26, 3:49:17 PM CET
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+dismissDialog("Launch Runs"); // cP (dialog45)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/XADC_Filtre/XADC_Filtre.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci' is already up-to-date 
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: L’opération a réussi.  ERROR: [Common 17-180] Spawn failed: L’opération a réussi.  
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: L’opération a réussi.  
+// TclEventType: RUN_MODIFY
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: [Wed Jan 14 15:49:30 2026] Launched synth_1... Run output will be captured here: D:/XADC_Filtre/XADC_Filtre.runs/synth_1/runme.log [Wed Jan 14 15:49:30 2026] Launched impl_1... Run output will be captured here: D:/XADC_Filtre/XADC_Filtre.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:13 . Memory (MB): peak = 1698.309 ; gain = 0.000 
+// Tcl Message: ERROR: [Common 17-39] 'launch_runs' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_runs' failed due to earlier errors.  
+// Elapsed time: 48 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OPEN_MESSAGES_VIEW, "Open Messages View", "Launch Run Critical Messages"); // a (PAResourceAtoD.CmdMsgDialog_OPEN_MESSAGES_VIEW)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Launch Run Critical Messages"); // bc (dialog46)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Common 17-180] Spawn failed: L’opération a réussi.. . ]", 2); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// [GUI Memory]: 180 MB (+146kb) [01:20:51]
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 47 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK", "Implementation Failed"); // f (RDIResource.BaseDialog_OK)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // W.a (dialog47)
+// Elapsed time: 42 seconds
+selectCodeEditor("const.xdc", 523, 129); // ae (const.xdc)
+selectCodeEditor("const.xdc", 526, 138); // ae (const.xdc)
+typeControlKey((HResource) null, "const.xdc", 'c'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 479, 166); // ae (const.xdc)
+selectCodeEditor("const.xdc", 479, 166, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+typeControlKey(null, null, 'z');
+selectCodeEditor("const.xdc", 479, 161); // ae (const.xdc)
+selectCodeEditor("const.xdc", 479, 161, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 465, 183); // ae (const.xdc)
+selectCodeEditor("const.xdc", 465, 183, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 464, 194); // ae (const.xdc)
+selectCodeEditor("const.xdc", 464, 194, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 465, 214); // ae (const.xdc)
+selectCodeEditor("const.xdc", 465, 214, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 465, 234); // ae (const.xdc)
+selectCodeEditor("const.xdc", 465, 234, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 467, 260); // ae (const.xdc)
+selectCodeEditor("const.xdc", 467, 260, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 471, 285); // ae (const.xdc)
+selectCodeEditor("const.xdc", 471, 285, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 471, 297); // ae (const.xdc)
+selectCodeEditor("const.xdc", 471, 297, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 486, 204); // ae (const.xdc)
+selectCodeEditor("const.xdc", 486, 204, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 492, 222); // ae (const.xdc)
+selectCodeEditor("const.xdc", 492, 222, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 482, 243); // ae (const.xdc)
+selectCodeEditor("const.xdc", 482, 243, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 482, 253); // ae (const.xdc)
+selectCodeEditor("const.xdc", 482, 253, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+// Elapsed time: 16 seconds
+selectCodeEditor("const.xdc", 506, 193); // ae (const.xdc)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("const.xdc", 468, 242); // ae (const.xdc)
+selectCodeEditor("const.xdc", 468, 242, false, false, false, false, true); // ae (const.xdc) - Double Click
+selectCodeEditor("const.xdc", 468, 242); // ae (const.xdc)
+typeControlKey((HResource) null, "const.xdc", 'c'); // ae (const.xdc)
+// Elapsed time: 12 seconds
+selectCodeEditor("const.xdc", 476, 184); // ae (const.xdc)
+selectCodeEditor("const.xdc", 476, 184, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+typeControlKey(null, null, 'z');
+selectCodeEditor("const.xdc", 525, 176); // ae (const.xdc)
+selectCodeEditor("const.xdc", 503, 177); // ae (const.xdc)
+selectCodeEditor("const.xdc", 503, 177, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'c'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 496, 196); // ae (const.xdc)
+selectCodeEditor("const.xdc", 496, 196, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 498, 225); // ae (const.xdc)
+selectCodeEditor("const.xdc", 498, 225, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 495, 121); // ae (const.xdc)
+selectCodeEditor("const.xdc", 495, 121, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 495, 134); // ae (const.xdc)
+selectCodeEditor("const.xdc", 495, 134, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 493, 164); // ae (const.xdc)
+selectCodeEditor("const.xdc", 493, 164, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 485, 175); // ae (const.xdc)
+selectCodeEditor("const.xdc", 485, 175, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 485, 194); // ae (const.xdc)
+selectCodeEditor("const.xdc", 485, 194, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 495, 228); // ae (const.xdc)
+selectCodeEditor("const.xdc", 495, 228, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 489, 244); // ae (const.xdc)
+selectCodeEditor("const.xdc", 489, 244, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 493, 273); // ae (const.xdc)
+selectCodeEditor("const.xdc", 493, 273, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 488, 268); // ae (const.xdc)
+selectCodeEditor("const.xdc", 488, 268, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+selectCodeEditor("const.xdc", 491, 294); // ae (const.xdc)
+selectCodeEditor("const.xdc", 491, 294, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes", "Synthesis is Out-of-date"); // f (RDIResource.BaseDialog_YES)
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+dismissDialog("Synthesis is Out-of-date"); // x (dialog48)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file D:/XADC_Filtre/XADC_Filtre.srcs/utils_1/imports/synth_1/main_project.dcp with file D:/XADC_Filtre/XADC_Filtre.runs/synth_1/XADC_Filtre.dcp 
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // f (RDIResource.BaseDialog_OK)
+// 'cM' command handler elapsed time: 3 seconds
+// HMemoryUtils.trashcanNow. Engine heap size: 1,070 MB. GUI used memory: 103 MB. Current time: 1/14/26, 3:52:57 PM CET
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+dismissDialog("Launch Runs"); // cP (dialog49)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/XADC_Filtre/XADC_Filtre.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci' is already up-to-date 
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: L’opération a réussi.  
+// TclEventType: RUN_MODIFY
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: [Wed Jan 14 15:53:09 2026] Launched synth_1... Run output will be captured here: D:/XADC_Filtre/XADC_Filtre.runs/synth_1/runme.log [Wed Jan 14 15:53:09 2026] Launched impl_1... Run output will be captured here: D:/XADC_Filtre/XADC_Filtre.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:13 . Memory (MB): peak = 1698.309 ; gain = 0.000 
+// Tcl Message: ERROR: [Common 17-39] 'launch_runs' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_runs' failed due to earlier errors.  
+// Elapsed time: 14 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OPEN_MESSAGES_VIEW, "Open Messages View", "Launch Run Critical Messages"); // a (PAResourceAtoD.CmdMsgDialog_OPEN_MESSAGES_VIEW)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Launch Run Critical Messages"); // bc (dialog50)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Common 17-180] Spawn failed: L’opération a réussi.. . ]", 2); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE)
+selectButton(PAResourceItoN.MsgView_CLEAR_MESSAGES_RESULTING_FROM_USER_EXECUTED, "Messages_cleanUpMessages"); // C (PAResourceItoN.MsgView_CLEAR_MESSAGES_RESULTING_FROM_USER_EXECUTED, Messages_cleanUpMessages)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 77 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK", "Implementation Failed"); // f (RDIResource.BaseDialog_OK)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // W.a (dialog51)
+// Elapsed time: 22 seconds
+selectCodeEditor("const.xdc", 472, 284); // ae (const.xdc)
+selectCodeEditor("const.xdc", 472, 284, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'c'); // ae (const.xdc)
+// Elapsed time: 10 seconds
+selectCodeEditor("const.xdc", 490, 156); // ae (const.xdc)
+selectCodeEditor("const.xdc", 490, 156, false, false, false, false, true); // ae (const.xdc) - Double Click
+typeControlKey((HResource) null, "const.xdc", 'v'); // ae (const.xdc)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save", "Save Project"); // f (PAResourceQtoS.SaveProjectUtils_SAVE)
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Save Project"); // ac.d (dialog52)
+selectButton(RDIResource.BaseDialog_YES, "Yes", "Synthesis is Out-of-date"); // f (RDIResource.BaseDialog_YES)
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+dismissDialog("Synthesis is Out-of-date"); // x (dialog53)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file D:/XADC_Filtre/XADC_Filtre.srcs/utils_1/imports/synth_1/main_project.dcp with file D:/XADC_Filtre/XADC_Filtre.runs/synth_1/XADC_Filtre.dcp 
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // f (RDIResource.BaseDialog_OK)
+// TclEventType: FILE_SET_CHANGE
+// 'cM' command handler elapsed time: 3 seconds
+// HMemoryUtils.trashcanNow. Engine heap size: 1,070 MB. GUI used memory: 106 MB. Current time: 1/14/26, 3:55:22 PM CET
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+dismissDialog("Launch Runs"); // cP (dialog54)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/XADC_Filtre/XADC_Filtre.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci' is already up-to-date 
+// TclEventType: RUN_STATUS_CHANGE

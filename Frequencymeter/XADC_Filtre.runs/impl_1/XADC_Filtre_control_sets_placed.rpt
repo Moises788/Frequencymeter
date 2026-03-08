@@ -1,0 +1,93 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
+| Date         : Thu Jan 15 11:34:19 2026
+| Host         : n7-b301-10 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file XADC_Filtre_control_sets_placed.rpt
+| Design       : XADC_Filtre
+| Device       : xc7a100t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    15 |
+|    Minimum number of control sets                        |    15 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    57 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    15 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     2 |
+| >= 14 to < 16      |     2 |
+| >= 16              |     9 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              26 |            9 |
+| No           | No                    | Yes                    |             115 |           41 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |              60 |           14 |
+| Yes          | No                    | Yes                    |             123 |           28 |
+| Yes          | Yes                   | No                     |              75 |           21 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------------------+--------------------------------------+-----------------------------------------------+------------------+----------------+--------------+
+|               Clock Signal              |             Enable Signal            |                Set/Reset Signal               | Slice Load Count | Bel Load Count | Bels / Slice |
++-----------------------------------------+--------------------------------------+-----------------------------------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG                          | Frequ/diviseur1/aux[4]_i_2_n_0       | Frequ/diviseur1/aux[4]_i_1_n_0                |                2 |              5 |         2.50 |
+|  clk_IBUF_BUFG                          | bcd_inst/bit_count[5]_i_1_n_0        | rst_IBUF                                      |                2 |              6 |         3.00 |
+|  Frequ/counter_periode1/sauv_counter__0 |                                      |                                               |                4 |             13 |         3.25 |
+| ~Frequ/counter_periode1/sauv_counter__0 |                                      |                                               |                5 |             13 |         2.60 |
+|  clk_IBUF_BUFG                          | Frequ/diviseur1/s_A[8]_i_2_n_0       | Frequ/diviseur1/s_A0                          |                5 |             14 |         2.80 |
+|  clk_IBUF_BUFG                          | display_inst/gen_an/reg1/E[0]        | rst_IBUF                                      |                5 |             15 |         3.00 |
+|  clk_IBUF_BUFG                          | Frequ/diviseur1/sortie[17]_i_1_n_0   |                                               |                5 |             18 |         3.60 |
+|  clk_IBUF_BUFG                          | Frequ/diviseur1/s_sortie[17]_i_1_n_0 | Frequ/diviseur1/s_A0                          |                3 |             18 |         6.00 |
+|  clk_IBUF_BUFG                          | Frequ/sortie_int0                    |                                               |                5 |             18 |         3.60 |
+|  clk_IBUF_BUFG                          | bcd_inst/cent_milliers0              |                                               |                4 |             24 |         6.00 |
+|  clk_IBUF_BUFG                          |                                      | Frequ/counter_periode1/sortie_reg[12]_i_2_n_0 |                7 |             26 |         3.71 |
+|  clk_IBUF_BUFG                          | Frequ/diviseur1/s_reste[37]_i_1_n_0  | Frequ/diviseur1/s_A0                          |               11 |             38 |         3.45 |
+|  clk_IBUF_BUFG                          | temp1/temp                           | rst_IBUF                                      |               12 |             42 |         3.50 |
+|  clk_IBUF_BUFG                          | bcd_inst/shift_reg[59]_i_1_n_0       | rst_IBUF                                      |                9 |             60 |         6.67 |
+|  clk_IBUF_BUFG                          |                                      | rst_IBUF                                      |               34 |             89 |         2.62 |
++-----------------------------------------+--------------------------------------+-----------------------------------------------+------------------+----------------+--------------+
+
+

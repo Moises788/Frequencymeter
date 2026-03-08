@@ -1,0 +1,16 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
+| Date         : Thu Jan 15 11:34:57 2026
+| Host         : n7-b301-10 running 64-bit major release  (build 9200)
+| Command      : report_bus_skew -warn_on_violation -file XADC_Filtre_bus_skew_routed.rpt -pb XADC_Filtre_bus_skew_routed.pb -rpx XADC_Filtre_bus_skew_routed.rpx
+| Design       : XADC_Filtre
+| Device       : 7a100t-csg324
+| Speed File   : -3  PRODUCTION 1.23 2018-06-13
+| Design State : Routed
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+
